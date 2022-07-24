@@ -1,12 +1,13 @@
 import './App.scss';
-import { LeftSide, RightSide } from './components';
+import { Routes, Route, Link } from "react-router-dom";
+import { Home } from './views/Home';
 
 function App() {
   return (
     <main className="main-app">
-      <LeftSide />
-
-      <RightSide />
+      <Routes>
+        <Route path="/resume/:name" element={<Home />} />
+      </Routes>
     </main>
   );
 }
