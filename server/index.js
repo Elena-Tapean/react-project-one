@@ -3,6 +3,9 @@ const app = express()
 const PORT = 3031
 const server = app.listen(PORT, function () { console.log(`server started at ${PORT}`)})
 
+app.get('/', function (request, response) {
+    response.send('')
+})
 app.get('/api/resume/:name', function (request, response) {
     const data = {
         elena: {
