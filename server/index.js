@@ -99,9 +99,8 @@ app.get('/api/resume/:name', function (request, response) {
             },
             current_projects: {
                 title:'CURRENT PROJECTS',
-                details: `<b>REACT.JS AND VUE.JS RESUME</b><br/>
-                <i>Creating resume in React.js
-                and Vue.js<br/>
+                details: `<b>REACT.JS RESUME</b><br/>
+                <i>Creating resume in React.js<br/>
                 role: Frontend Developer</i>
                 <br><br/>
                 <b>VUE.JS PORTFOLIO</b><br/>

@@ -1,0 +1,29 @@
+.port-folio {
+    @media only screen and (min-width: 0) {
+            padding: 12px 24px;
+            margin: 0 10px;
+            font-size: 18px;
+            font-family: "Averta Std", sans-serif;
+            color: #343434;
+        }
+        h2, p {
+            padding: 6px 12px;
+            margin: 10px 12px;
+            font-size: 18px;
+            font-family: "Averta Std", sans-serif;
+            color: #343434;
+        }
+        a {
+            margin: 10px 50px;
+            padding: 5px;
+            font-size: 16px;
+            font-family: "Averta Std", sans-serif;
+            font-style: italic;
+            font-weight: bold;
+            color: #343434;
+        }
+        a:hover {
+            color: palevioletred;
+            text-decoration: none;
+        }
+    }
