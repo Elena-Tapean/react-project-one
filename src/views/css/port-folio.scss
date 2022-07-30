@@ -13,6 +13,21 @@
             font-family: "Averta Std", sans-serif;
             color: #343434;
         }
+        ul, li {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+        }
+        ul {
+            width: 700px;
+            margin: 48px auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        li {
+            margin-bottom: 16px;
+        }
         a {
             margin: 10px 50px;
             padding: 5px;

@@ -1,0 +1,23 @@
+.error-page {
+    @media only screen and (min-width: 0) {
+        padding: 12px;
+        margin: 0 10px;
+        font-size: 21px;
+        font-family: "Averta Std", sans-serif;
+        color: #343434;
+        text-align: center;
+    }
+    
+    a {
+        font-size: 21px;
+        font-family: "Averta Std", sans-serif;
+        font-style: italic;
+        color: palevioletred;
+        text-align: center;
+    }
+
+    a:hover {
+        color: mediumseagreen;
+        text-decoration: none;
+    }
+}

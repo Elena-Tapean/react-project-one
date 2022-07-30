@@ -1,0 +1,47 @@
+.preview-cards {
+    @media only screen and (min-width: 0) {
+        width: 300px;
+        border: 1px solid lightgrey;
+        border-radius: 6px;
+        figure {
+            height: 220px;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-top-left-radius: 6px;
+            border-top-right-radius: 6px;
+            img {
+                width: 15px;
+                height: 15px;
+            }
+        }
+        h2 {
+            margin-bottom: 2px;
+            font-size: 18px;
+            font-family: "Averta Std", sans-serif;
+        }
+        a {
+            font-size: 13px;
+            text-decoration: none;
+            text-align: center;
+            display: block;
+        }
+        button {
+            margin: 16px 0;
+            padding: 4px 18px; 
+            border: none;
+            background-color: #363535;
+            border-radius: 4px;
+            transition: background-color 0.2s ease-in-out;
+            button:hover {
+                background-color: darken(#363535, 20%);
+            }
+            a {
+                color: white;
+            }
+        }
+    }
+}

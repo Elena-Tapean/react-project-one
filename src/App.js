@@ -6,6 +6,7 @@ import { Portfolio } from './views/Portfolio';
 import { Contact } from './views/Contact';
 import { NavBar } from './components';
 //import { Footer } from './components';//
+import { PageNotFound } from './components/PageNotFound';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/resume/:name" element={<Resume />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="*" element={<PageNotFound />} />
       </Routes>
       {/*<Footer />*/}
     </main>

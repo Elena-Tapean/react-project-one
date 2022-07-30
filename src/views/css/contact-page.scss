@@ -15,7 +15,7 @@
     }
 
     input {
-        width: 30%;
+        width: 50%;
         height: 50px;
         display: flex;
         margin: 0 auto;
@@ -37,9 +37,9 @@
     }
     
     button:hover {
-        font-size: 23px;
+        font-size: 22px;
         background-color: palevioletred;
         color: white;
-        border: 1px solid #343434;
+        border: 1px solid palevioletred;
     } 
 }
