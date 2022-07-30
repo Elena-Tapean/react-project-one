@@ -1,9 +1,45 @@
 .contact-page {
     @media only screen and (min-width: 0) {
         padding: 12px 24px;
-        margin: 0 10px;
+        margin: 12px 30px;
         font-size: 18px;
         font-family: "Averta Std", sans-serif;
         color: #343434;
     }
+    
+    label {
+        display: block;
+        text-align: center;
+        font-size: 18px;
+        font-family: "Averta Std", sans-serif;
+    }
+
+    input {
+        width: 30%;
+        height: 50px;
+        display: flex;
+        margin: 0 auto;
+        font-size: 16px;
+        font-family: "Averta Std", sans-serif;
+    }
+
+    button {
+        display: flex;
+        margin: 0 auto;
+        padding: 12px 10px;
+        font-size: 20px;
+        font-family: "Averta Std", sans-serif;
+        text-align: center;
+        border-radius: 5px;
+        border: 1px solid #343434;
+        background-color: white;
+        color: palevioletred;
+    }
+    
+    button:hover {
+        font-size: 23px;
+        background-color: palevioletred;
+        color: white;
+        border: 1px solid #343434;
+    } 
 }

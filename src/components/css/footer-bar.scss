@@ -1,0 +1,25 @@
+/*.page-container {
+    @media only screen and (min-width: 0) {
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        
+        .footer-bar {
+            width: 100%;
+            bottom: 0;
+            padding: 12px;
+            position: absolute;
+            background-color: #C2C2C2;
+    
+            nav {
+                display: inline-block;
+    
+                    a {
+                        justify-content: space-between;
+                        padding: 5px;
+
+                    }
+            }
+        }
+    }
+}*/
