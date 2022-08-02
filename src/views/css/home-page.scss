@@ -6,30 +6,39 @@
         font-family: "Averta Std", sans-serif;
         color: #343434;
     }
-    q {
-        background-color: palevioletred;
-        background-size: 50px;
-        padding: 6px;
-        margin: 6px;
-        color: white;
-        text-align: left;
-    }
-    p {
-        font-size: 20px;
+    h1 {
+        font-size: 37px;
         font-family: "Averta Std", sans-serif;
         font-style: normal;
     }
+    h3 {
+        margin-left: 5px;
+        font-size: 24px;
+        font-family: "Averta Std", sans-serif;
+        font-style: italic;
+    }
+    p {
+        padding-top: 10px;
+        padding-left: 20px;
+        font-size: 21px;
+        font-family: "Averta Std", sans-serif;
+        font-style: normal;
+    }
+    ul, li {
+        padding-bottom: 10px;
+        list-style-type: none;
+        margin-left: 25px;
+        padding: 6px;
+    }
+    li {
+        font-family: "Averta Std", sans-serif;
+        font-style: italic;
+    }
     a {
-        color: palevioletred;
+        color: #FF2259;
         text-decoration: none;
     }
     a:hover {
-        color: mediumseagreen;
         text-decoration: underline;
-    }
-    img {
-        float: right;
-        width: 130px;
-        height: 40px;
     }
 }

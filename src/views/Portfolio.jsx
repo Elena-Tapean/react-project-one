@@ -1,16 +1,18 @@
 import './css/port-folio.scss';
+import './css/background-portfolio.scss';
 
 export const Portfolio = function () {
     return (
-        <div className="port-folio">
-            <h1>My projects so far</h1>
-            <h2>1. Project One</h2>
-            <div className="container">
-                <figure>
-                    <img src="https://scontent-otp1-1.xx.fbcdn.net/v/t39.30808-6/297201343_8059307864109191_8996942405167751039_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeG61_GUEaG1lmDwRzAcURKRoDI4_WlaAKOgMjj9aVoAo6Tcv4ubRHAlv-xGerhd1wxUkRKNC2lRXwPIPfNkMtem&_nc_ohc=bm3K7-XOgDUAX-pw6hQ&_nc_ht=scontent-otp1-1.xx&oh=00_AT9WElkPs8uRRDtNPkAtKhOpFs_WVClFjD1THZo0GJTb7g&oe=62EC3606" alt="React Resume" className="image" />
-                </figure>
-                <div className="overlay">
-                    <div className="text"><a href="http://localhost:3000/resume/elena/">React Resume</a></div>
+        <main className="background-portfolio">
+            <div className="port-folio">
+                <h1>My projects so far</h1>
+                <h2>1. Project One</h2>
+                <div className="container">
+                    <figure>
+                        <img src="https://scontent.fotp7-2.fna.fbcdn.net/v/t39.30808-6/297272427_8061666247206686_5854492312499706271_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeEKtT2g1FK6xrLWWxn__So4vh0sdALzl-u-HSx0AvOX63MUoUN1-S_zE0RQZckU0QBb-cl2IHJsBLgKPdYcnKmz&_nc_ohc=3S5Ozw2nK2oAX-rEgTm&tn=zBda7qO6N6VquDzN&_nc_ht=scontent.fotp7-2.fna&oh=00_AT_xrojeDaIQCGLOOlmVs-xNmmkpTqDmgx8i4ywekreN9g&oe=62ECF988" alt="React Resume" className="image" />
+                    </figure>
+                    <div className="overlay">
+                        <div className="text"><a href="http://localhost:3000/resume/elena/">React Resume</a></div>
                     </div>
                 </div>
                 <h2>2. Project Two</h2>
@@ -49,6 +51,7 @@ export const Portfolio = function () {
                         <div className="text"><a href="#">A Simple Game</a></div>
                     </div>
                 </div>
-        </div>   
+            </div>
+        </main>   
     )
 }

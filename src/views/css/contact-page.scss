@@ -1,45 +1,36 @@
 .contact-page {
     @media only screen and (min-width: 0) {
         padding: 12px 24px;
-        margin: 12px 30px;
+        margin: 0 15px;
         font-size: 18px;
         font-family: "Averta Std", sans-serif;
         color: #343434;
     }
-    
-    label {
-        display: block;
-        text-align: center;
-        font-size: 18px;
+    h1 {
+        padding-left: 80px;
+        font-size: 36px;
+        font-family: "Averta Std", sans-serif;
+        font-style: normal;
+    }
+    p {
+        padding-left: 100px;
+        margin: 10px;
+        padding-top: 10px;
+        font-size: 24px;
         font-family: "Averta Std", sans-serif;
     }
-
-    input {
-        width: 50%;
-        height: 50px;
-        display: flex;
-        margin: 0 auto;
-        font-size: 16px;
-        font-family: "Averta Std", sans-serif;
+    ul {
+        padding-top: 20px;
+        padding-bottom: 340px;
+        padding-left: 150px;
     }
-
-    button {
-        display: flex;
-        margin: 0 auto;
-        padding: 12px 10px;
-        font-size: 20px;
-        font-family: "Averta Std", sans-serif;
-        text-align: center;
-        border-radius: 5px;
-        border: 1px solid #343434;
-        background-color: white;
-        color: palevioletred;
+    ul, li {
+        list-style-type: none;
     }
-    
-    button:hover {
-        font-size: 22px;
-        background-color: palevioletred;
-        color: white;
-        border: 1px solid palevioletred;
-    } 
+    a {
+        font-size: 27px;
+        color: #FF2259;
+        text-decoration: none;
+        font-style: italic;
+    }
 }
