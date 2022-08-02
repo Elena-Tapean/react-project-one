@@ -6,4 +6,30 @@
         font-family: "Averta Std", sans-serif;
         color: #343434;
     }
+    q {
+        background-color: palevioletred;
+        background-size: 50px;
+        padding: 6px;
+        margin: 6px;
+        color: white;
+        text-align: left;
+    }
+    p {
+        font-size: 20px;
+        font-family: "Averta Std", sans-serif;
+        font-style: normal;
+    }
+    a {
+        color: palevioletred;
+        text-decoration: none;
+    }
+    a:hover {
+        color: mediumseagreen;
+        text-decoration: underline;
+    }
+    img {
+        float: right;
+        width: 130px;
+        height: 40px;
+    }
 }
