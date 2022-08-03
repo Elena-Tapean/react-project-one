@@ -1,5 +1,5 @@
 import './css/port-folio.scss';
-import './css/background-portfolio.scss';
+import './css/backgrounds/background-portfolio.scss';
 
 export const Portfolio = function () {
     return (

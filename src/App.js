@@ -5,7 +5,7 @@ import { Resume } from './views/Resume';
 import { Portfolio } from './views/Portfolio';
 import { Contact } from './views/Contact';
 import { NavBar } from './components';
-//import { Footer } from './components';//
+import { Footer } from './components';
 import { PageNotFound } from './components/PageNotFound';
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<PageNotFound />} />
       </Routes>
-      {/*<Footer />*/}
+      <Footer />
     </main>
   );
 }

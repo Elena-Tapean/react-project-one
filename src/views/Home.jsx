@@ -1,5 +1,5 @@
 import './css/home-page.scss';
-import './css/background-homepage.scss';
+import './css/backgrounds/background-homepage.scss';
 
 export const Home = function () {
     return (

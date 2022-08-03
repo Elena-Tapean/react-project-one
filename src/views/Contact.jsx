@@ -1,5 +1,5 @@
 import './css/contact-page.scss';
-import './css/background-contact.scss';
+import './css/backgrounds/background-contact.scss';
 
 export const Contact = function () {
     return (
