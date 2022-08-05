@@ -12,12 +12,12 @@
         font-size: 21px;
         font-family: "Averta Std", sans-serif;
         font-style: italic;
-        color: palevioletred;
+        color: #FF2259;
+        text-decoration: none;
         text-align: center;
     }
 
     a:hover {
-        color: mediumseagreen;
-        text-decoration: none;
+        text-decoration: underline;
     }
 }
