@@ -12,6 +12,9 @@ export const Resume = function () {
         .then(response => {
             setData(response.data)
         })
+        .catch(err => {
+            console.log(err)
+        })
     }, [])
 
     return (
