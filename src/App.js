@@ -7,6 +7,8 @@ import { Contact } from './views/Contact';
 import { NavBar } from './components';
 import { Footer } from './components';
 import { PageNotFound } from './components/PageNotFound';
+import { Login } from './components/Login';
+import { Register } from './components/Register';
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<PageNotFound />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
       </Routes>
       <Footer />
     </main>

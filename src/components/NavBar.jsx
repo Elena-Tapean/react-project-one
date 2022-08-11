@@ -12,7 +12,9 @@ export const NavBar = function () {
                 <Link to='/'>Home</Link>
                 <Link to='/resume/elena'>Resume</Link>
                 <Link to='/portfolio'>Portfolio</Link>
-                <Link to="/contact">Contact</Link>
+                <Link to='/contact'>Contact</Link>
+                <Link to='/login'>Log In</Link>
+                <Link to='/register'>Sign Up</Link>
             </nav>
         </header>
     )
