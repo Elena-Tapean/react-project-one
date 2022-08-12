@@ -2,6 +2,7 @@ import { LeftSide, RightSide } from "../components";
 import { useState, useEffect } from "react";
 import axios from "axios";
 import { useParams } from "react-router-dom";
+import { ResumeContext } from "../context/resume";
 
 export const Resume = function () {
     const [data, setData] = useState({})
@@ -9,8 +10,8 @@ export const Resume = function () {
 
     useEffect(() => {
       axios.get(`/api/resume/${name}`)
-        .then(response => {
-            setData(response.data)
+        .then(({data}) => {
+            setData(data)
         })
         .catch(err => {
             console.log(err)
@@ -19,9 +20,10 @@ export const Resume = function () {
 
     return (
         <div className="resume-page">
-            <LeftSide data={data} />
-
-            <RightSide data={data} />
+            <ResumeContext.Provider value={data}>
+            <LeftSide />
+            <RightSide />
+            </ResumeContext.Provider>
         </div>
     )
 }

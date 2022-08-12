@@ -2,9 +2,12 @@ import avatar from '../assets/avatar.png';
 import './css/right-side.scss';
 import { TextComponent } from './TextComponent';
 import { RatingLevel } from './RatingLevel';
+import { ResumeContext } from '../context/resume';
+import { useContext } from 'react';
 
-export const RightSide = function ({data}) {
+export const RightSide = function () {
     const sections = ['educations', 'current_projects', 'personal_projects']
+    const data = useContext(ResumeContext)
 
     return (
         <section className="right-side">
