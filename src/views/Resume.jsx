@@ -1,29 +1,24 @@
 import { LeftSide, RightSide } from "../components";
-import { useState, useEffect } from "react";
-import axios from "axios";
 import { useParams } from "react-router-dom";
 import { ResumeContext } from "../context/resume";
+import { useResume } from "../store/resume";
 
 export const Resume = function () {
-    const [data, setData] = useState({})
     const {name} = useParams();
-
-    useEffect(() => {
-      axios.get(`/api/resume/${name}`)
-        .then(({data}) => {
-            setData(data)
-        })
-        .catch(err => {
-            console.log(err)
-        })
-    }, [])
+    const {status, data} = useResume(name);
 
     return (
         <div className="resume-page">
-            <ResumeContext.Provider value={data}>
-            <LeftSide />
-            <RightSide />
-            </ResumeContext.Provider>
+            {
+                status === 'fetching'
+                ? <h1>Loading</h1>
+                : status === 'error'
+                ? <h1>Error</h1>
+                : <ResumeContext.Provider value={data}>
+                    <LeftSide />
+                    <RightSide />
+                  </ResumeContext.Provider>
+            }
         </div>
     )
 }
