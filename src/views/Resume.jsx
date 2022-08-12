@@ -6,7 +6,7 @@ import { useResume } from "../store/resume";
 export const Resume = function () {
     const {name} = useParams();
     const {status, data} = useResume(name);
-
+    
     return (
         <div className="resume-page">
             {
