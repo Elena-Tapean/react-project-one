@@ -3,6 +3,10 @@
         position: fixed;
         width: 100%;
         bottom: 0;
+
+        .span-larger {
+            display: none;
+        }
         
         .footer-bar {
             width: 100%;
@@ -18,9 +22,11 @@
                 justify-content: space-between;
 
                 form {
-                    margin-left: 25px;
+                    margin-left: 10px;
                     input {
-                        font-size: 14px;
+                        width: 130px;
+                        height: 21.5px;
+                        font-size: 13px;
                         border: 1px solid #565656;
                         background-color: #F8F8F8;
                         color: #363535;
@@ -31,6 +37,7 @@
                         height: 20px;
                         border: 1px solid #363535;
                         background-color: #82CA9C;
+                        border: 1px solid #363535;
                     }
                     button:hover {
                         border: none;
@@ -38,12 +45,22 @@
                         color: white;
                     }
                     span {
-                        font-size: 9px;
+                        font-size: 6px;
                         font-family: "Averta Std", sans-serif;
                         font-style: normal;
                     }
                 }
             }
+        }
+    }
+
+    @media only screen and (min-width: 768px) {
+        span {
+            display: none;
+        }
+
+        .span-larger {
+            display: flex;
         }
     }
 }
