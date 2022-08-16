@@ -1,11 +1,15 @@
 import './css/sign-up.scss';
 import './css/backgrounds/background-register.scss';
 
+function handleSubmit () {
+    alert("Hello!")
+}
+
 export const Register = function () {
     return (
         <main className='background-register'>
             <div className='sign-up'>
-                <form>
+                <form cy='register-form'>
                     <label htmlFor='firstName'>First name:</label>
                     <br/>
                     <input type="text" id="firstName" placeholder="Enter first name" />
@@ -31,7 +35,7 @@ export const Register = function () {
                     </select>
                     <br/>
                     <br/>
-                    <button>Sign Up</button>
+                    <button cy="submit-button" onClick={handleSubmit}>Sign Up</button>
                 </form>
             </div>
         </main>
