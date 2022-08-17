@@ -1,44 +1,69 @@
 .home-page {
     @media only screen and (min-width: 0) {
-        padding: 12px 24px;
+        padding: 12px 0 50px 12px;
         margin: 0 10px;
-        font-size: 21px;
+        font-size: 18px;
         font-family: "Averta Std", sans-serif;
         color: #343434;
+        h1 {
+            font-size: 36px;
+            font-family: "Averta Std", sans-serif;
+            font-style: normal;
+        }
+        h3 {
+            margin-left: 5px;
+            font-size: 24px;
+            font-family: "Averta Std", sans-serif;
+            font-style: italic;
+        }
+        p {
+            font-size: 21px;
+            font-family: "Averta Std", sans-serif;
+            font-style: normal;
+        }
+        ul, li {
+            list-style-type: none;
+            margin-left: 20px;
+            padding: 3px;
+        }
+        li {
+            font-family: "Averta Std", sans-serif;
+            font-style: italic;
+        }
+        a {
+            color: #FF2259;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        button {
+            margin: 0 10px;
+            padding: 12px;
+            border: none;
+            border-radius: 10px;
+            background-color: #FF2259;
+            color: white;
+            font-size: 21px;
+            font-family: "Averta Std", sans-serif;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #DE2259;
+        }
     }
-    h1 {
-        font-size: 36px;
+
+    @media only screen and (min-width: 768px) {
+        padding: 5px 0 60px 30px;
+        margin: 0 5px;
+        font-size: 20px;
         font-family: "Averta Std", sans-serif;
-        font-style: normal;
-    }
-    h3 {
-        margin-left: 5px;
-        font-size: 24px;
-        font-family: "Averta Std", sans-serif;
-        font-style: italic;
-    }
-    p {
-        padding-top: 5px;
-        padding-left: 20px;
-        font-size: 21px;
-        font-family: "Averta Std", sans-serif;
-        font-style: normal;
-    }
-    ul, li {
-        padding-bottom: 5px;
-        list-style-type: none;
-        margin-left: 25px;
-        padding: 6px;
-    }
-    li {
-        font-family: "Averta Std", sans-serif;
-        font-style: italic;
-    }
-    a {
-        color: #FF2259;
-        text-decoration: none;
-    }
-    a:hover {
-        text-decoration: underline;
+        color: #343434;
+        ul, li {
+            padding: 5px;
+        }
+        button {
+            margin: 0 30px;
+        }
     }
 }

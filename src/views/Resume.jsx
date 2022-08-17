@@ -11,9 +11,9 @@ export const Resume = function () {
         <div className="resume-page">
             {
                 status === 'fetching'
-                ? <h1>Loading</h1>
+                ? <span>Loading</span>
                 : status === 'error'
-                ? <h1>Error</h1>
+                ? <span>Error</span>
                 : <ResumeContext.Provider value={data}>
                     <LeftSide />
                     <RightSide />

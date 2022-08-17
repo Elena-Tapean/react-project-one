@@ -79,7 +79,7 @@ app.get('/api/resume/:name', function (request, response) {
                     rate: 6
                 },
                 {
-                    name: 'PHOTOSHOP CS4',
+                    name: 'PHOTOSHOP',
                     rate: 7
                 }
             ],

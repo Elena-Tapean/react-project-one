@@ -1,18 +1,15 @@
 .nav-bar {
     @media only screen and (min-width: 0) {
         width: 100%;
-
         .nondrop-navbar {
             display: none;
         }
-        
         .dropdown-navbar {
             padding: 10px;
             overflow: hidden;
             display: flex;
             justify-content: space-between;
             background-color: #C2C2C2;
-
             a {
                 margin: 0;
                 padding: 0 15px;
@@ -23,12 +20,10 @@
                 text-align: center;
                 text-decoration: none;
             }
-
             .dropdown {
                 float: left;
                 overflow: hidden;
             }
-              
             .dropdown, .drop-btn {
                 margin: 0;
                 padding: 0 15px;
@@ -39,13 +34,11 @@
                 color: #343434;
                 background-color: #C2C2C2;
             }
-
             .dropdown-navbar a:hover, .dropdown:hover .drop-btn {
                 background-color: #FF2259;
                 color: white;
                 border-radius: 5px;
             }
-              
             .drop-content {
                 display: none;
                 position: absolute;
@@ -55,7 +48,6 @@
                 border-radius: 5px;
                 box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
             }
-
             .drop-content a {
                 float: none;
                 color: black;
@@ -64,11 +56,9 @@
                 display: block;
                 text-align: left;
             }
-              
             .drop-content a:hover {
                 background-color: #82CA9C;
             }
-              
             .dropdown:hover .drop-content {
                 display: block;
             }
@@ -76,23 +66,18 @@
     }
 
     @media only screen and (min-width: 768px) {
-        width: 100%;
-
         .dropdown-navbar {
             display: none;
         }
-        
         .nondrop-navbar {
             display: flex;
             padding: 10px;
             text-align: left;
             background-color: #C2C2C2;
-
             span {
                 margin-top: 3px;
                 margin-left: 15px;
             }
-        
             a {
                 margin: 0;
                 padding: 0 15px;
@@ -101,7 +86,6 @@
                 color: #343434;
                 text-decoration: none;
             }
-    
             a:hover {
                 color: #FF2259; 
             }

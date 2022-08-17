@@ -8,4 +8,39 @@
             font-family: "Averta Std", sans-serif;
         }
     }
+    @media only screen and (min-width: 200px) {
+        span {
+            font-size: 10px;
+            font-weight: bold;
+            padding: 3px 0 3px 0px;
+        }
+    }
+    @media only screen and (min-width: 360px) {
+        span {
+            font-size: 13px;
+            font-style: normal;
+            padding: 3px 0 2px 0;
+        }
+    }
+    @media only screen and (min-width: 400px) {
+        span {
+            font-size: 13px;
+            font-style: normal;
+            padding: 3px 0px 3px 0px;
+        }
+    }
+    @media only screen and (min-width: 768px) {
+        span {
+            font-size: 13px;
+            font-style: normal;
+            padding: 3px 0px 3px 0px;
+        }
+    }
+    @media only screen and (min-width: 1024px) {
+        span {
+            font-size: 13px;
+            font-style: normal;
+            padding: 5px 0 0 0;
+        }
+    }
 }

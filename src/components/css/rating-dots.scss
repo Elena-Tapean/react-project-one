@@ -16,4 +16,20 @@
             }
         }
     }
+    @media only screen and (min-width: 200px) {
+        width: 70px;
+    }
+    @media only screen and (min-width: 360px) {
+        width: 75px;
+    }
+    @media only screen and (min-width: 400px) {
+       width: 80px;
+    }
+    @media only screen and (min-width: 768px) {
+        width: 96px;
+    }
+    @media only screen and (min-width: 1024px) {
+        width: 100px;
+        margin-right: 70px;
+    }
 }

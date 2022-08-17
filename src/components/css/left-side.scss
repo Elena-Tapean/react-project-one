@@ -1,9 +1,27 @@
 .left-side {
     @media only screen and (min-width: 0) {
         padding: 24px 40px 0;
+        line-height: 20px;
         .contact-details {
             font-size: 13.5px;
             font-family: "Averta Std", sans-serif;
         }
+    }
+    @media only screen and (min-width: 200px) {
+        padding: 10px 10px 0px 10px;
+        text-align: left;
+    }
+    @media only screen and (min-width: 360px) {
+        padding: 10px 20px 0 20px;
+    }
+    @media only screen and (min-width: 400px) {
+        padding: 20px 25px 0px 20px;
+    }
+    @media only screen and (min-width: 768px) {
+        padding: 30px 50px 0 40px;
+        text-align: justify;
+    }
+    @media only screen and (min-width: 1024px) {
+        padding: 40px 50px 0 40px;
     }
 }

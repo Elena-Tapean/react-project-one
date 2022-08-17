@@ -52,4 +52,96 @@
             }
         }
     }
+    @media only screen and (min-width: 200px) {
+        padding: 80px 5px 0 5px;
+        header {
+            position: relative;
+            figure {
+                position: absolute;
+                right: -35px;
+                top: -115px;
+            }
+        }
+        .text-component {
+            position: relative;
+            &:before {
+                position: absolute;
+                content: attr(index);
+                width: 29px;
+                margin: 5px 25px;
+                left: -28px;
+                top: -28px;
+            }
+        }
+    }
+    @media only screen and (min-width: 360px) {
+        padding: 80px 5px 0 20px;
+        .text-component {
+            position: relative;
+            &:before {
+                position: absolute;
+                content: attr(index);
+                width: 29px;
+                padding: 2px 3px;
+                left: -55px;
+                top: -5px;
+            }
+        }
+    }
+    @media only screen and (min-width: 400px) {
+        padding: 80px 5px 0 20px;
+        .text-component {
+            position: relative;
+            &:before {
+                position: absolute;
+                content: attr(index);
+                width: 29px;
+                padding: 2px 3px;
+                left: -55px;
+                top: -5px;
+            }
+        }
+    }
+    @media only screen and (min-width: 768px) {
+        padding: 80px 40px 0;
+        header {
+            position: relative;
+            figure {
+                position: absolute;
+                right: 0;
+                top: -80px;
+            }
+        }
+        .text-component {
+            position: relative;
+            &:before {
+                position: absolute;
+                content: attr(index);
+                width: 29px;
+                padding: 2px 3px;
+                left: -75px;
+            }
+        }
+    }
+    @media only screen and (min-width: 1024px) {
+        padding: 80px 50px 0 40px;
+        header {
+            position: relative;
+            figure {
+                position: absolute;
+                right: 30px;
+                top: -80px;
+            }
+        }
+        .text-component {
+            position: relative;
+            &:before {
+                position: absolute;
+                content: attr(index);
+                width: 29px;
+                padding: 2px 3px;
+                left: -75px;
+            }
+        }
+    }
 }
