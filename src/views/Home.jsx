@@ -17,7 +17,6 @@ export const Home = function () {
                     <li>To learn more about me, visit <a href="http://localhost:3000/resume/elena/">the Resume page</a></li>
                     <li>To view my portfolio, visit <a href="http://localhost:3000/portfolio">the Portfolio page</a></li>
                     <li>To contact me, visit <a href="http://localhost:3000/contact">the Contact page</a></li>
-                    <li>To receive updates on my work, register here: <a href="http://localhost:3000/register">Sign Up page</a></li>
                 </ul>
                 <h3>What do I do beside code?</h3>
                 <p>I love playing games, writing poetry and taking photos.</p>
