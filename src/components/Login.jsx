@@ -1,9 +1,8 @@
 import './css/log-in.scss';
-import './css/backgrounds/background-login.scss';
 
 export const Login = function () {
     return (
-        <main className='background-login'>
+        <main>
             <div className='log-in'>
                 <form>
                     <label htmlFor='email'>Email:</label>

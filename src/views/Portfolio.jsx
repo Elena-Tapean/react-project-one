@@ -1,9 +1,8 @@
 import './css/port-folio.scss';
-import './css/backgrounds/background-portfolio.scss';
 
 export const Portfolio = function () {
     return (
-        <main className="background-portfolio">
+        <main>
             <div className="port-folio">
                 <h1>My projects so far</h1>
                 <div className='container'>

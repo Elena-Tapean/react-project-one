@@ -1,5 +1,4 @@
 import './css/home-page.scss';
-import './css/backgrounds/background-homepage.scss';
 
 function handleSubmit (ev) {
     ev.preventDefault();
@@ -7,24 +6,55 @@ function handleSubmit (ev) {
 
 export const Home = function () {
     return (
-        <main className="background-homepage">
+        <main>
             <div className="home-page">
-                <h1>Welcome to my home page!</h1>
-                <p>Hi there! I am Elena Țăpean, a Front-end Developer with a taste for stylizing and creating webpages using React.js and Vue.js.</p>
-                <p>This here is my first project. I have used React.js to create it.</p>
-                <h3>Where to go from here?</h3>
-                <ul>
-                    <li>To learn more about me, visit <a href="http://localhost:3000/resume/elena/">the Resume page</a></li>
-                    <li>To view my portfolio, visit <a href="http://localhost:3000/portfolio">the Portfolio page</a></li>
-                    <li>To contact me, visit <a href="http://localhost:3000/contact">the Contact page</a></li>
-                </ul>
-                <h3>What do I do beside code?</h3>
-                <p>I love playing games, writing poetry and taking photos.</p>
-                <ul>
-                    <li>Visit <a href="https://gurushots.com/elena_tapean/photos">Gurushots profile</a></li>
-                    <li>Visit <a href="https://steamcommunity.com/id/elena_tapean">Steam profile</a></li>
-                    <li>Visit <a href="https://elenatapeanpoetry.wordpress.com/">Poetry blog</a></li>
-                </ul>
+                <h1>Hi there!</h1>
+                <p>I am Elena Țăpean</p>
+                <p>Frontend Developer</p>
+                <p>Also a passionate gamer</p>
+                <div className="min-flex">
+                <div>
+                    <p>Website Links</p>
+                    <a href="http://localhost:3000/resume/elena">Resume</a>
+                    <a href="http://localhost:3000/portfolio">Portfolio</a>
+                    <a href="http://localhost:3000/contact">Contact</a>
+                    <a href="http://localhost:3000/register">Exclusive Content</a>
+                </div>         
+                <div>       
+                    <p>Professional Links</p>
+                    <a href="https://www.linkedin.com/in/elena-tapean/">LinkedIn</a>
+                    <a href="https://github.com/Elena-Tapean">Github</a>
+                </div>
+                <div>
+                    <p>Hobby Links</p>
+                    <a href="https://steamcommunity.com/id/elena_tapean/">Steam</a>
+                    <a href="https://elenatapeanpoetry.wordpress.com/">Poetry</a>
+                    <a href="https://elenatapeanphotos.wordpress.com/">Photography</a>
+                </div>
+                <br/>
+                <button onClick={handleSubmit}>Hire me</button>
+                </div>
+                <div className='flex-div'>
+                <div>
+                    <p>Website Links</p>
+                    <a href="http://localhost:3000/resume/elena">Resume</a>
+                    <a href="http://localhost:3000/portfolio">Portfolio</a>
+                    <a href="http://localhost:3000/contact">Contact</a>
+                    <a href="http://localhost:3000/register">Exclusive Content</a>
+                </div>         
+                <div>       
+                    <p>Professional Links</p>
+                    <a href="https://www.linkedin.com/in/elena-tapean/">LinkedIn</a>
+                    <a href="https://github.com/Elena-Tapean">Github</a>
+                </div>
+                <div>
+                    <p>Hobby Links</p>
+                    <a href="https://steamcommunity.com/id/elena_tapean/">Steam</a>
+                    <a href="https://elenatapeanpoetry.wordpress.com/">Poetry</a>
+                    <a href="https://elenatapeanphotos.wordpress.com/">Photography</a>
+                </div>
+                </div>
+                <br/>
                 <button onClick={handleSubmit}>Hire me</button>
             </div>
         </main>

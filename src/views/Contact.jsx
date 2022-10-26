@@ -1,9 +1,8 @@
 import './css/contact-page.scss';
-import './css/backgrounds/background-contact.scss';
 
 export const Contact = function () {
     return (
-        <main className="background-contact">
+        <main>
             <div className="contact-page">
                 <h1>Let's chat!</h1>
                 <p>Choose the right place to start:</p>
