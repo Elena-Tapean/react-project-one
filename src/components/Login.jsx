@@ -1,5 +1,9 @@
 import './css/log-in.scss';
 
+function handleSubmit (ev) {
+    ev.preventDefault();
+}
+
 export const Login = function () {
     return (
         <main>
@@ -9,13 +13,12 @@ export const Login = function () {
                     <br/>
                     <input type="text" id="email" placeholder="Enter email" />
                     <br/>
-                    <br/>
                     <label htmlFor='password'>Password:</label>
                     <br/>
                     <input type="text" id="password" placeholder="Enter password" />
                     <br/>
                     <br/>
-                    <button>Log In</button>
+                    <button onClick={handleSubmit}>Log In</button>
                 </form>
             </div>
         </main>

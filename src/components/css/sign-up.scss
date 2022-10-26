@@ -1,20 +1,22 @@
 .sign-up {
     @media only screen and (min-width: 0) {
-        display: flex;
-        margin: 0 auto;
-        padding-top: 50px;
-        padding-bottom: 100px;
+        height: 100%;
         
         form {
-            display: inline-block;
-            margin: 0 auto;
-            padding: 30px 40px;
-            line-height: 40px;
-            font-size: 27px;
-            font-family: "Averta Std", sans-serif;
-            text-align: center;
+            margin-top: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
             
+            label {
+                display: flex;
+                justify-content: center;
+                font-size: 21px;
+            }
             input {
+                display: flex;
+                justify-content: center;
                 width: 300px;
                 height: 30px;
                 border-radius: 5px;
@@ -24,7 +26,22 @@
                 background-color: #343434;
                 color: #F8F8F8;
             }
-
+            button {
+                margin: 0 auto;
+                width: 100px;
+                height: 35px;                
+                font-size: 22px;
+                font-family: "Averta Std", sans-serif;
+                border-radius: 10px;
+                border: none;
+                background-color: #FF2259;
+                color: white;
+                text-decoration: none;
+            }
+            button:hover {
+                background-color: #FF2259;
+                color: white;
+            }
             select, option {
                 width: 300px;
                 height: 30px;
@@ -35,24 +52,59 @@
                 background-color: #343434;
                 color: #F8F8F8;
             }
+        }
+    }
 
+    @media only screen and (min-width: 768px) {
+        form {
+            margin-top: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
+            label {
+                display: flex;
+                justify-content: center;
+                font-size: 21px;
+            }
+            input {
+                display: flex;
+                justify-content: center;
+                width: 300px;
+                height: 30px;
+                border-radius: 5px;
+                font-size: 20px;
+                font-style: italic;
+                font-family: "Averta Std", sans-serif;
+                background-color: #343434;
+                color: #F8F8F8;
+            }
             button {
-                width: 150px;
-                height: 45px;
-                display: block;
                 margin: 0 auto;
-                line-height: 35px;
-                font-size: 27px;
+                width: 100px;
+                height: 35px;                
+                font-size: 22px;
                 font-family: "Averta Std", sans-serif;
                 border-radius: 10px;
                 border: none;
-                background-color: #82CA9C;
-                color: #000000;
+                background-color: #FF2259;
+                color: white;
                 text-decoration: none;
             }
             button:hover {
                 background-color: #FF2259;
                 color: white;
+            }
+            select, option {
+                width: 300px;
+                height: 30px;
+                border-radius: 5px;
+                font-size: 20px;
+                font-style: italic;
+                font-family: "Averta Std", sans-serif;
+                background-color: #343434;
+                color: #F8F8F8;
             }
         }
     }
