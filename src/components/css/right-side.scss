@@ -90,6 +90,14 @@
     }
     @media only screen and (min-width: 400px) {
         padding: 80px 5px 0 20px;
+        header {
+            position: relative;
+            figure {
+                position: absolute;
+                right: 10;
+                top: -100px;
+            }
+        }
         .text-component {
             position: relative;
             &:before {
@@ -108,7 +116,7 @@
             position: relative;
             figure {
                 position: absolute;
-                right: 0;
+                right: 20;
                 top: -80px;
             }
         }
@@ -124,13 +132,42 @@
         }
     }
     @media only screen and (min-width: 1024px) {
-        padding: 80px 50px 0 40px;
+        padding: 80px 170px 0 40px;
         header {
             position: relative;
             figure {
                 position: absolute;
                 right: 30px;
                 top: -80px;
+                img {
+                    width: 110px;
+                    height: 110px;
+                }
+            }
+        }
+        .text-component {
+            position: relative;
+            &:before {
+                position: absolute;
+                content: attr(index);
+                width: 29px;
+                padding: 2px 3px;
+                left: -75px;
+            }
+        }
+    }
+    @media only screen and (min-width: 1440px) {
+        padding: 80px 320px 0 40px;
+        header {
+            position: relative;
+            figure {
+                position: absolute;
+                right: 30px;
+                top: -80px;
+                img {
+                    width: 110px;
+                    height: 110px;
+                }
             }
         }
         .text-component {

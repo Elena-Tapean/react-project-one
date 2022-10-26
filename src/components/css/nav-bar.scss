@@ -35,9 +35,8 @@
                 background-color: #C2C2C2;
             }
             .dropdown-navbar a:hover, .dropdown:hover .drop-btn {
-                background-color: #FF2259;
-                color: white;
-                border-radius: 5px;
+                background-color: #C2C2C2;
+                color: black;
             }
             .drop-content {
                 display: none;
@@ -71,16 +70,18 @@
         }
         .nondrop-navbar {
             display: flex;
+            justify-content: space-between;
+            align-items: center;
             padding: 10px;
-            text-align: left;
+            text-align: center;
             background-color: #C2C2C2;
             span {
                 margin-top: 3px;
                 margin-left: 15px;
             }
             a {
-                margin: 0;
-                padding: 0 15px;
+                margin: 15px;
+                padding: 0;
                 font-size: 18px;
                 font-family: "Averta Std", sans-serif;
                 color: #343434;

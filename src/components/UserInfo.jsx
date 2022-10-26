@@ -6,9 +6,9 @@ export const UserInfo = function () {
 
     return (
         <p className="contact-details">
-            Call {data.phone} or
+            Call: {data.phone} or
             <br/>
-            Email {data.email}
+            Email: {data.email}
         </p>
     )
 }

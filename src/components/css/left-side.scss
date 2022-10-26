@@ -3,8 +3,8 @@
         padding: 24px 40px 0;
         line-height: 20px;
         .contact-details {
-            font-size: 13.5px;
-            font-family: "Averta Std", sans-serif;
+            font-size: 14px;
+            font-family: Arial, sans-serif;
         }
     }
     @media only screen and (min-width: 200px) {
@@ -22,6 +22,9 @@
         text-align: justify;
     }
     @media only screen and (min-width: 1024px) {
-        padding: 40px 50px 0 40px;
+        padding: 40px 50px 0 170px;
+    }
+    @media only screen and (min-width: 1440px) {
+        padding: 40px 50px 0 320px;
     }
 }

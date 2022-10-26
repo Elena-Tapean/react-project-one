@@ -104,7 +104,8 @@ app.get('/api/resume/:name', function (request, response) {
                 FORMAL EDUCATION<br/>
                 <i>OVIDIUS UNIVERSITY OF CONSTANȚA<br/>
                 2009-2014<br/>
-                Study program: English Language and Literature (BA) and Anglo-American Studies (MA)</i>`
+                Study program (BA): English Language and Literature<br/>
+                Study program (MA): Anglo-American Studies</i>`
             },
             current_projects: {
                 title:'CURRENT PROJECTS',
@@ -117,7 +118,7 @@ app.get('/api/resume/:name', function (request, response) {
                 role: Frontend Developer</i>
                 <br><br/>
                 <b>GAME DESIGNER</b><br/>
-                <i>Writing the story and designing puzzles within the game.<br/>
+                <i>Story writing and designing game puzzles.<br/>
                 role: Game Writer and Designer</i>`
             },
             personal_projects: {
