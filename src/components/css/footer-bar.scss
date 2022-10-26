@@ -13,42 +13,20 @@
             bottom: 0;
             padding: 10px;
             position: absolute;
-            background-color: #C2C2C2;
+            background-color: black;
             
             nav {
                 display: flex;
                 flex-wrap: wrap;
                 flex-direction: row;
                 justify-content: space-between;
-
-                form {
-                    margin-left: 10px;
-                    input {
-                        width: 130px;
-                        height: 21.5px;
-                        font-size: 13px;
-                        border: 1px solid #565656;
-                        background-color: #F8F8F8;
-                        color: #363535;
-                    }
-                    button {
-                        font-size: 14px;
-                        width: 60px;
-                        height: 20px;
-                        border: 1px solid #363535;
-                        background-color: #82CA9C;
-                        border: 1px solid #363535;
-                    }
-                    button:hover {
-                        border: none;
-                        background-color: #FF2259;
-                        color: white;
-                    }
-                    span {
-                        font-size: 6px;
-                        font-family: "Averta Std", sans-serif;
-                        font-style: normal;
-                    }
+                align-items: center;
+                
+                span {
+                    font-size: 16px;
+                    font-family: "Averta Std", sans-serif;
+                    font-style: normal;
+                    color: white;
                 }
             }
         }
