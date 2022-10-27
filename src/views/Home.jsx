@@ -1,4 +1,5 @@
 import './css/home-page.scss';
+import '../assets/backgrounds/home.jpg';
 
 function handleClick (ev) {
     ev.preventDefault();

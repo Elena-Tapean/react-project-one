@@ -64,23 +64,23 @@
         h1 {
             display: flex;
             justify-content: left;
-            margin: 30px 70px;
-            font-size: 32px;
+            margin: 30px 100px;
+            font-size: 37px;
             font-family: "Averta Std", sans-serif;
             font-style: normal;
         }
         p {
             display: flex;
             justify-content: left;
-            margin: 20px 100px;
-            font-size: 24px;
+            margin: 20px 130px;
+            font-size: 27px;
             font-family: "Averta Std", sans-serif;
             font-style: normal;
         }
         .hire-me {
-            margin: 5px 370px;
+            margin: 5px 350px;
             display: flex;
-            padding: 8px;
+            padding: 15px;
             border: none;
             border-radius: 10px;
             background-color: #FF2259;
@@ -94,14 +94,14 @@
         .dropdown-navbar {
             display: flex;
             padding: 15px;
-            margin: 20px 120px;
+            margin: 20px 150px;
             overflow: hidden;
             justify-content: space-between;
             a {
                 margin: 0;
                 padding: 0 15px;
                 float: left;
-                font-size: 18px;
+                font-size: 20px;
                 font-family: "Averta Std", sans-serif;
                 color: white;
                 text-align: center;
@@ -114,7 +114,7 @@
             .dropdown, .drop-btn {
                 margin: 0;
                 padding: 5px;
-                font-size: 18px;
+                font-size: 20px;
                 font-family: "Averta Std", sans-serif;
                 border: none;
                 outline: none;
