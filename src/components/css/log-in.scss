@@ -2,8 +2,15 @@
     @media only screen and (min-width: 0) {
         height: 100%;
 
+        h1 {
+            display: flex;
+            justify-content: center;
+            margin: 50px;
+            font-size: 27px;
+            font-family: "Averta Std", sans-serif;
+            font-style: normal;
+        }
         form {
-            margin-top: 50px;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -19,6 +26,7 @@
                 justify-content: center;
                 width: 300px;
                 height: 30px;
+                margin: 10px;
                 border-radius: 5px;
                 font-size: 20px;
                 font-style: italic;
@@ -39,15 +47,21 @@
                 text-decoration: none;
             }
             button:hover {
-                background-color: #FF2259;
-                color: white;
+                cursor: pointer;
             }
         }
     }
 
     @media only screen and (min-width: 768px) {
+        h1 {
+            display: flex;
+            justify-content: center;
+            margin: 70px;
+            font-size: 30px;
+            font-family: "Averta Std", sans-serif;
+            font-style: normal;
+        }
         form {
-            margin-top: 50px;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -61,6 +75,7 @@
             input {
                 display: flex;
                 justify-content: center;
+                margin: 10px;
                 width: 300px;
                 height: 30px;
                 border-radius: 5px;

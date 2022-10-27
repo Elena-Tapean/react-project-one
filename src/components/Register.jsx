@@ -8,6 +8,7 @@ export const Register = function () {
     return (
         <main>
             <div className='sign-up'>
+                <h1>Sign Up</h1>
                 <form cy='register-form'>
                     <label htmlFor='firstName'>First name:</label>
                     <br/>

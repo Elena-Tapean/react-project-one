@@ -8,6 +8,7 @@ export const Login = function () {
     return (
         <main>
             <div className='log-in'>
+                <h1>Log In</h1>
                 <form>
                     <label htmlFor='email'>Email:</label>
                     <br/>

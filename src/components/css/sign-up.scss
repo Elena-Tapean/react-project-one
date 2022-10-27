@@ -2,8 +2,14 @@
     @media only screen and (min-width: 0) {
         height: 100%;
         
+        h1 {
+            display: flex;
+            justify-content: center;
+            font-size: 27px;
+            font-family: "Averta Std", sans-serif;
+            font-style: normal;
+        }
         form {
-            margin-top: 50px;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -39,8 +45,7 @@
                 text-decoration: none;
             }
             button:hover {
-                background-color: #FF2259;
-                color: white;
+                cursor: pointer;
             }
             select, option {
                 width: 300px;
@@ -56,8 +61,14 @@
     }
 
     @media only screen and (min-width: 768px) {
+        h1 {
+            display: flex;
+            justify-content: center;
+            font-size: 30px;
+            font-family: "Averta Std", sans-serif;
+            font-style: normal;
+        }
         form {
-            margin-top: 50px;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -93,8 +104,7 @@
                 text-decoration: none;
             }
             button:hover {
-                background-color: #FF2259;
-                color: white;
+                cursor: pointer;
             }
             select, option {
                 width: 300px;
